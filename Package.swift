@@ -21,7 +21,7 @@ let package = Package(
             name: "Logger",
             dependencies: [],
             path: "./Sources/Logger"),
-        .target(
+        .executableTarget(
             name: "LoggerExample",
             dependencies: ["Logger"],
             path: "./Sources/Example"),
