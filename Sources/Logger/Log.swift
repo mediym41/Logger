@@ -47,7 +47,7 @@ public protocol Logger {
     )
 }
 
-extension Logger {
+public extension Logger {
     var logDate: String {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
